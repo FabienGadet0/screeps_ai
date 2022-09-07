@@ -1,0 +1,41 @@
+# Cluster -> copro
+hold Rooms
+
+
+
+## Room (Room instance) -> la_coloc
+- room lvl
+
+
+
+### Architect (design room) -> damidot
+
+### Supervisors (monitor tasks and adjust priority) -> big_brother
+
+
+### Manager (monitor ressources and create tasks) -> jean_eude
+
+### Analyst (watch data) -> google
+ 
+##### Watcher -> cdi_non_remunere
+- Create `watcher` that will keep in memory the targeted data (can be all the time or refreshed all the time)
+
+
+
+#### Creeps
+- spawn_id
+- room_name
+? needed
+
+- role
+- taskList
+- lvl
+
+#### Creeps classes
+- Builder -> bob
+- Harvester -> wisp
+- upgrader -> base_virale_vps
+- defender -> windows_defender
+- attacker -> leeroy
+- healer -> pfizer
+- scout -> ryan
